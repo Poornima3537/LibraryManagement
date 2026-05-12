@@ -1,9 +1,9 @@
-Library Management - Book issue
+# Library Management - Book issue
 
 A Full Stack Library Management System developed using Spring Boot, React, javascript, MySQL.
 The application manages books, members, and book issue/return operations with REST APIs and a responsive frontend interface.
 
-Tech Stack :
+## Tech Stack :
 
 Backend - 
 Java
@@ -17,7 +17,7 @@ React
 Vite
 CSS
 
-Features : 
+## Features : 
 
 Authentication & Roles - 
 Member registration
@@ -40,6 +40,12 @@ Issue & Return Management -
 Issue books to members
 Return issued books
 Automatic book availability update
+
+Swagger Documentation
+
+Access API documentation using:
+
+http://localhost:8080/swagger-ui/index.html
 
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/162d7eba-b7f5-4301-8102-a90c58639a12" />
 
