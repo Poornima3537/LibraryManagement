@@ -40,3 +40,16 @@ Issue & Return Management -
 Issue books to members
 Return issued books
 Automatic book availability update
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/162d7eba-b7f5-4301-8102-a90c58639a12" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eebf87be-d0b5-4bc1-9d07-ad9b4a07fa0a" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b2ea88ff-1433-44ea-8e88-bf64b1fc1704" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9f377cf2-91bc-421a-ad30-5529bf25ca6a" />
+
+
+
+
+
