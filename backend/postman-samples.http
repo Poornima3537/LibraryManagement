@@ -1,0 +1,65 @@
+### Register login account
+POST http://localhost:8080/auth/register
+Content-Type: application/json
+
+{
+  "name": "Riya Patel",
+  "email": "riya@gmail.com",
+  "password": "member123",
+  "role": "MEMBER"
+}
+
+### Login as librarian
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+  "email": "librarian@gmail.com",
+  "password": "admin123",
+  "role": "LIBRARIAN"
+}
+
+### Add a book
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "title": "Head First Java",
+  "author": "Kathy Sierra"
+}
+
+### View all books
+GET http://localhost:8080/books
+
+### View available books
+GET http://localhost:8080/books/available
+
+### Search by title or author
+GET http://localhost:8080/books?search=spring
+
+### Register a member
+POST http://localhost:8080/members
+Content-Type: application/json
+
+{
+  "name": "Riya Patel",
+  "email": "riya@gmail.com"
+}
+
+### View member details
+GET http://localhost:8080/members/1
+
+### View books issued to member
+GET http://localhost:8080/members/1/issues
+
+### Issue a book
+POST http://localhost:8080/issues/issue
+Content-Type: application/json
+
+{
+  "bookId": 1,
+  "memberId": 1
+}
+
+### Return a book
+PUT http://localhost:8080/issues/return/1
