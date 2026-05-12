@@ -4,18 +4,21 @@ A Full Stack Library Management System developed using Spring Boot, React, javas
 The application manages books, members, and book issue/return operations with REST APIs and a responsive frontend interface.
 
 Tech Stack :
+
 Backend - 
 Java
 Spring Boot
 Spring Data JPA
 MySQL
 Swagger UI
+
 Frontend - 
 React 
 Vite
 CSS
 
 Features : 
+
 Authentication & Roles - 
 Member registration
 Role-based users
